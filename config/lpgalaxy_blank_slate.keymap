@@ -13,6 +13,14 @@
 		zmk,matrix_transform = &mit_transform;
 	};
 	
+	conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
+
     behaviors {
         gresc: grave_escape {
             compatible = "zmk,behavior-mod-morph";
@@ -56,5 +64,17 @@
 			&kp RCTRL	&trans		&kp RGUI	&kp RALT	&trans			&kp BSPC				&trans		&kp PSCRN		&kp SLCK		&kp PAUSE_BREAK		&none
 			>;
 		};
+
+		adjust_layer {
+			label = "Adjust";
+			
+			bindings = <
+			&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
+			&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
+			&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
+			&none	&none	&none	&none	&none		&none		&none	&none	&none	&none	&none
+			>;
+		}
+
     };
 };
