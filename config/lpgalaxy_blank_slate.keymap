@@ -38,10 +38,10 @@
 			label = "Raise";
 
 			bindings = <
-			&kp GRAVE	&kp N1		&kp N2		&kp N3		&kp N4		&kp N5			&kp N6		&kp N7			&kp N8			&kp N9			&kp N0				&kp MINUS
-			&kp CAPS	&kp EXCL	&kp AT		&kp HASH	&kp DOLLAR	&kp PERCENT		&kp LBRC	&kp RBRC		&kp INS			&kp HOME		&kp PG_UP			&kp EQUAL
-			&kp RSHFT	&kp CARET	&kp AMPS	&kp ASTRK	&kp LPAR	&kp RPAR		&kp LBKT	&kp RBKT		&kp DEL			&kp END			&kp PG_DN			&kp RET
-			&kp RCTRL	&trans		&kp RGUI	&kp RALT	&mo LOWER			&kp BSPC			&mo RAISE		&kp PSCRN		&kp SLCK		&kp PAUSE_BREAK		&none
+			&kp GRAVE	&kp N1		&kp N2		&kp N3		&kp N4		&kp N5			&kp N6		&kp N7		&kp N8			&kp N9			&kp N0				&kp MINUS
+			&kp CAPS	&kp EXCL	&kp AT		&kp HASH	&kp DOLLAR	&kp PERCENT		&kp LBRC	&kp RBRC	&kp INS			&kp HOME		&kp PG_UP			&kp EQUAL
+			&kp RSHFT	&kp CARET	&kp AMPS	&kp ASTRK	&kp LPAR	&kp RPAR		&kp LBKT	&kp RBKT	&kp DEL			&kp END			&kp PG_DN			&kp RET
+			&kp RCTRL	&trans		&kp RGUI	&kp RALT	&trans			&kp BSPC				&trans		&kp PSCRN		&kp SLCK		&kp PAUSE_BREAK		&none
 			>;
 
 		};
