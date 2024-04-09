@@ -9,10 +9,10 @@
 
 
 / {
-	/*chosen {
+	chosen {
 		zmk,matrix_transform = &mit_transform;
-	};*/
-	behaviors {
+	};
+	mod_morphs {
 		gresc: grave_escape {
 			compatible = "zmk,behaviour-mod-morph";
 			#binding-cells = <0>;
