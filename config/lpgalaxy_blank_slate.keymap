@@ -9,9 +9,9 @@
 
 
 / {
-	chosen {
+	/*chosen {
 		zmk,matrix_transform = &mit_transform;
-	};
+	};*/
 	behaviors {
 		gresc: grave_escape {
 			compatible = "zmk,behaviour-mod-morph";
