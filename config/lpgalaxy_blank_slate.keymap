@@ -12,14 +12,15 @@
 	chosen {
 		zmk,matrix_transform = &mit_transform;
 	};
-	mod_morphs {
-		gresc: grave_escape {
-			compatible = "zmk,behaviour-mod-morph";
-			#binding-cells = <0>;
-			bindings = <&kp ESC>, <&kp GRAVE>;
-			mods = <(MOD_LGUI|MOD_LSFT)>;
-		};
-	};
+	
+    behaviors {
+        gresc: grave_escape {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp ESC>, <&kp GRAVE>;
+            mods = <(MOD_LGUI|MOD_LSFT)>;
+        };
+    };
     keymap {
         compatible = "zmk,keymap";
 
