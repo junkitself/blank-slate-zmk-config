@@ -50,7 +50,7 @@
 			&kp GRAVE	&kp F1		&kp F2		&kp F3		&kp F4		&kp F15		&kp KP_DIVIDE		&kp KP_N7		&kp KP_N8		&kp KP_N9		&kp KP_MINUS	&kp DEL
 			&kp DEL		&kp F5		&kp F6		&kp F7		&kp F8		&kp F14		&kp KP_MULTIPLY		&kp KP_N4		&kp KP_N5		&kp KP_N6		&kp KP_PLUS		&kp BSLH
 			&trans		&kp F9		&kp F10		&kp F11		&kp F12		&kp F13		&kp F16				&kp KP_N1		&kp KP_N2		&kp KP_N3		&kp KP_ENTER	&kp RET
-			&trans		&trans		&trans		&trans		&trans			&kp RET						&trans			&kp KP_N0		&kp KP_DOT		&none			&kp KP_NUM
+			&trans		&trans		&trans		&trans		&trans				&kp RET					&trans			&kp KP_N0		&kp KP_DOT		&none			&kp KP_NUM
 			>;	
 		};
 
@@ -61,7 +61,7 @@
 			&kp GRAVE	&kp N1		&kp N2		&kp N3		&kp N4		&kp N5			&kp N6		&kp N7		&kp N8			&kp N9			&kp N0				&kp MINUS
 			&kp CAPS	&kp EXCL	&kp AT		&kp HASH	&kp DOLLAR	&kp PERCENT		&kp LBRC	&kp RBRC	&kp INS			&kp HOME		&kp PG_UP			&kp EQUAL
 			&kp RSHFT	&kp CARET	&kp AMPS	&kp ASTRK	&kp LPAR	&kp RPAR		&kp LBKT	&kp RBKT	&kp DEL			&kp END			&kp PG_DN			&kp RET
-			&kp RCTRL	&trans		&kp RGUI	&kp RALT	&trans			&kp BSPC				&trans		&kp PSCRN		&kp SLCK		&kp PAUSE_BREAK		&none
+			&kp RCTRL	&trans		&kp RGUI	&kp RALT	&trans				&kp BSPC			&trans		&kp PSCRN		&kp SLCK		&kp PAUSE_BREAK		&none
 			>;
 		};
 
@@ -69,12 +69,11 @@
 			label = "Adjust";
 			
 			bindings = <
-			&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
-			&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
-			&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none	&none
-			&none	&none	&none	&none	&none		&none		&none	&none	&none	&none	&none
-			>;
-		}
-
+			&none	&kp F13		&kp F14		&kp F15		&kp F16		&none		&none		&none		&none		&none		&none		&none
+			&none	&kp F17		&kp F18		&kp F19		&kp F20		&none		&none		&none		&none		&none		&none		&none
+			&none	&kp F21		&kp F22		&kp F23		&kp F24		&none		&none		&none		&none		&none		&none		&none
+			&none	&none		&none		&none		&trans			&none				&trans		&none		&none		&none		&none
+			>;	
+		};
     };
 };
