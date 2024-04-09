@@ -32,7 +32,7 @@
 			&trans		&kp F9		&kp F10		&kp F11		&kp F12		&kp F13		&kp F16				&kp KP_N1		&kp KP_N2		&kp KP_N3		&kp KP_ENTER	&kp RET
 			&trans		&trans		&trans		&trans		&trans			&kp RET						&trans			&kp KP_N0		&kp KP_DOT		&none			&kp KP_NUM
 			>;	
-		}		
+		};
 
 		raise_layer {
 			label = "Raise";
@@ -44,6 +44,6 @@
 			&kp RCTRL	&trans		&kp RGUI	&kp RALT	&mo LOWER			&kp BSPC			&mo RAISE		&kp PSCRN		&kp SLCK		&kp PAUSE_BREAK		&none
 			>;
 
-		}
+		};
     };
 };
